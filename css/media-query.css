@@ -1,0 +1,53 @@
+@media (max-width: 1024px) {
+    .about-card {
+      flex: 1 1 calc(50% - 12px);
+    }
+  
+    .about-card h1 {
+      font-size: 36px;
+    }
+  
+    .about-card h2 {
+      font-size: 28px;
+    }
+  
+    .about-card p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about-card {
+      flex: 1 1 100%;
+    }
+  
+    .about-card h1 {
+      font-size: 32px;
+    }
+  
+    .about-card h2 {
+      font-size: 24px;
+    }
+  
+    .about-card p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-card {
+      flex: 1 1 100%;
+    }
+  
+    .about-card h1 {
+      font-size: 28px;
+    }
+  
+    .about-card h2 {
+      font-size: 20px;
+    }
+  
+    .about-card p {
+      font-size: 14px;
+    }
+  }
