@@ -1,0 +1,39 @@
+@media(max-width: 768px) {
+
+  .head {
+    flex-direction: column;
+  }
+
+  .nav-btn {
+    flex-direction: column;
+    justify-content: space-between;
+  } 
+
+  .btn {
+    margin-bottom: 12px;
+  }
+
+  .menu-item {
+    width: calc(calc(100% / 3) - 32px);
+  }
+
+  #contact-us {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .contact-us-card {
+    width: calc(100% - 24px);
+  }
+
+  
+
+}
+
+@media(max-width: 480px) {
+
+  .menu-item {
+    width: calc(calc(100% / 2) - 32px);
+  }
+
+}
