@@ -1,53 +1,39 @@
-@media (max-width: 1024px) {
-    .about-card {
-      flex: 1 1 calc(50% - 12px);
-    }
-  
-    .about-card h1 {
-      font-size: 36px;
-    }
-  
-    .about-card h2 {
-      font-size: 28px;
-    }
-  
-    .about-card p {
-      font-size: 16px;
-    }
+@media(max-width: 768px) {
+
+  .head {
+    flex-direction: column;
   }
-  
-  @media (max-width: 768px) {
-    .about-card {
-      flex: 1 1 100%;
-    }
-  
-    .about-card h1 {
-      font-size: 32px;
-    }
-  
-    .about-card h2 {
-      font-size: 24px;
-    }
-  
-    .about-card p {
-      font-size: 16px;
-    }
+
+  .nav-btn {
+    flex-direction: column;
+    justify-content: space-between;
+  } 
+
+  .btn {
+    margin-bottom: 12px;
   }
-  
-  @media (max-width: 480px) {
-    .about-card {
-      flex: 1 1 100%;
-    }
-  
-    .about-card h1 {
-      font-size: 28px;
-    }
-  
-    .about-card h2 {
-      font-size: 20px;
-    }
-  
-    .about-card p {
-      font-size: 14px;
-    }
+
+  .menu-item {
+    width: calc(calc(100% / 3) - 32px);
   }
+
+  #contact-us {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .contact-us-card {
+    width: calc(100% - 24px);
+  }
+
+  
+
+}
+
+@media(max-width: 480px) {
+
+  .menu-item {
+    width: calc(calc(100% / 2) - 32px);
+  }
+
+}
